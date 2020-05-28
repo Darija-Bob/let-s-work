@@ -11,15 +11,15 @@ header.masthead {
 	padding-top: 12rem;
 }
 
-header.masthead .masthead-heading {
-	font-size: 3rem;
-	margin-top: -1rem;
-	margin-bottom: 2rem;
+@media only screen and (max-width: 767.9px) {
+	header.masthead .masthead-heading {
+		font-size: 2rem;
+	}
 }
 
 .logo-header {
 	display: inline-block;
-	height: 40vh;
+	width: 60vw;
 	margin: auto;
 }
 
