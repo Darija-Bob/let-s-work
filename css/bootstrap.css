@@ -2510,12 +2510,13 @@ fieldset:disabled a.btn {
     color: #fff;
     background-color: #ff0149;
     border-color: #ff0149;
+    border: none;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #fec810;
-    border-color: #fec503;
+    background-color: var(--blue);
+    /* border-color: #fec503; */
 }
 
 .btn-primary:focus,
