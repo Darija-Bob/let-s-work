@@ -89,3 +89,7 @@ ul.clients-showcase>li>div {
 *::placeholder {
 	color: #424242 !important;
 }
+
+.hidden {
+	display: none;
+}
