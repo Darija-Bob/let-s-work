@@ -46,4 +46,12 @@
     navbarCollapse();
 
     $(window).scroll(navbarCollapse);
+
+    $('#devis').change(function() {
+        $('#order-input').removeClass('hidden');
+    });
+    
+    $('#informations').change(function() {
+        $('#order-input').addClass('hidden');
+    });
 })(jQuery);
