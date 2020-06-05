@@ -95,6 +95,16 @@ ul.clients-showcase > li > div {
   font-weight: bold;
 }
 
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  background-color: #7a8288;
+}
+
+.btn-secondary {
+  background-color: #545b62;
+}
+
 *::placeholder {
   color: #424242 !important;
 }
